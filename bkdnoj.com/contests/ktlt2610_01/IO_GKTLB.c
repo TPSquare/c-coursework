@@ -1,5 +1,4 @@
 #include <stdio.h> // Khai báo thư viện chuẩn stdio.h để dùng hàm nhập (scanf) và xuất (printf)
-
 int main() {
     int h, m, s, x;
     scanf("%d %d %d %d", &h, &m, &s, &x);

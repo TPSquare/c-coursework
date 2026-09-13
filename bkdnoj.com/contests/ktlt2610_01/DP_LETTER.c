@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct bag { long w, h; };
+struct bag {
+    long w;
+    long h;
+};
 
 int compare(const void *a, const void *b) {
     struct bag *p1 = (struct bag *)a;
