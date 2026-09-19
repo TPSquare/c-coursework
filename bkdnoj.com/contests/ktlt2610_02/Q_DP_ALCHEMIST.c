@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 long long min(long long a, long long b) { return a < b ? a : b; }
-
 int main() {
   long long n, maxW, i, j;
   long long maxV = 0;

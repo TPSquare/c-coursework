@@ -1,6 +1,5 @@
 #include <math.h>
 #include <stdio.h>
-
 int main() {
   long n, k, h[100005], dp[100005];
   scanf("%ld %ld %ld", &n, &k, &h[0]);

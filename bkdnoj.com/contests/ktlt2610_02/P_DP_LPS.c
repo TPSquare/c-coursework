@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
 long max(long a, long b) { return a > b ? a : b; }
-
 int main() {
   char s[1005];
   scanf("%s", s);

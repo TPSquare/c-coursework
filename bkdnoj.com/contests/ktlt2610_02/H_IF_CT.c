@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void cach1() {
   long n, x, y, z;
   scanf("%ld", &n);
@@ -24,7 +23,6 @@ void cach1() {
   x += y;
   printf("%ld %ld %ld", x, y, z);
 }
-
 void cach2() {
   long n;
   scanf("%ld", &n);
